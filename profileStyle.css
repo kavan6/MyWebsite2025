@@ -1,0 +1,17 @@
+.profile-pic-container {
+    width: 18.75em;
+    height: 18.75em;
+    overflow: hidden;
+    margin: 1em;
+}
+
+.profile-pic {
+    width: 18.75em;
+    height: 18.75em;
+    object-fit: cover;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    transition: 0.05s;
+}
