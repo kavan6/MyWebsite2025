@@ -6,11 +6,19 @@ body {
     padding-top: 7em;
 }
 
+.attributes-container {
+    padding: 0.5em;
+    padding-left: 3em;
+    background-color: whitesmoke;
+    border-radius: 5em;
+}
+
 .profile-pic-container {
     width: 18.75em;
     height: 18.75em;
     overflow: hidden;
     margin: 1em;
+    border-radius: 50%;
 }
 
 .profile-pic {
@@ -25,7 +33,9 @@ body {
 }
 
 .profile {
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
 }
 
 .navbar {
