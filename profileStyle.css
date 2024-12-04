@@ -1,3 +1,7 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .profile-pic-container {
     width: 18.75em;
     height: 18.75em;
