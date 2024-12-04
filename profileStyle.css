@@ -1,5 +1,9 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.attributes {
+    padding-top: 7em;
 }
 
 .profile-pic-container {
@@ -18,4 +22,12 @@ body {
 .profile-pic:hover {
     transform: scale(1.05);
     transition: 0.05s;
+}
+
+.profile {
+    padding: 2em;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
 }

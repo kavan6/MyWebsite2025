@@ -7,6 +7,9 @@
     <meta name="Author" content="Kavan Heppenstall"/>
     <link href="profileStyle.css" rel="stylesheet"/>
     <link href="profileScript.js" rel="script"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>My Profile</title>
 </head>
 <body>
@@ -17,37 +20,45 @@
         <a href="https://github.com/kavan6" target="_blank">GitHub</a>
     </div>
 
-    <div class="profile">
-        <div class="profile-pic-container">
-            <img src="assets/pfp.png" alt="" class="profile-pic">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="profile">
+                    <h1>Kavan Heppenstall</h1>
+                    <p>ServiceNow App Dev</p>
+                    <div class="profile-pic-container">
+                        <img src="assets/pfp.png" alt="" class="profile-pic">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 attributes">
+                <div class="skills">
+                    <h4>My Skills</h4>
+                    <ul>
+                        <li>Agile</li>
+                        <li>Scrum</li>
+                        <li>ServiceNow Administration</li>
+                    </ul>
+                </div>
+                <div class="hobbies">
+                    <h4>My Hobbies</h4>
+                    <ul>
+                        <li>Football</li>
+                        <li>MMA</li>
+                        <li>Mountain Walking</li>
+                        <li>Guitar</li>
+                    </ul>
+                </div>
+                <div class="goals">
+                    <h4>My Goals</h4>
+                    <ul>
+                        <li>Become an insanely good ServiceNow App Dev</li>
+                    </ul>
+                </div>  
+            </div>
         </div>
-        <h1>Kavan Heppenstall</h1>
-        <h2>My Profile</h2>
-        <p>My profile</p>
     </div>
-    <div class="skills">
-        <h4>My Skills</h4>
-        <ul>
-            <li>Agile</li>
-            <li>Scrum</li>
-            <li>ServiceNow Administration</li>
-        </ul>
-    </div>
-    <div class="hobbies">
-        <h4>My Hobbies</h4>
-        <ul>
-            <li>Football</li>
-            <li>MMA</li>
-            <li>Mountain Walking</li>
-            <li>Guitar</li>
-        </ul>
-    </div>
-    <div class="goals">
-        <h4>My Goals</h4>
-        <ul>
-            <li>Become an insanely good ServiceNow App Dev</li>
-        </ul>
-    </div>
+
     <div class="search">
         <h3>Search for new</h3>
         <div class="search-form">
