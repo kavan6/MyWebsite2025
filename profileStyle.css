@@ -13,6 +13,11 @@ body {
     border-radius: 5em;
 }
 
+.body-container {
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
 .profile-pic-container {
     width: 18.75em;
     height: 18.75em;
